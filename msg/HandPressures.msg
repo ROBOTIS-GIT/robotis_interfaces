@@ -1,4 +1,4 @@
-# Pressure readings for tactile sensors on a robotic hand.
+# Pressure readings for tactile sensors on a ROBOTIS Hand.
 
 # Standard header for timestamps and frame_id.
 std_msgs/Header header
