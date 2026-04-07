@@ -15,8 +15,8 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HandJoints.msg"
   "msg/HandPressures.msg"
-  "msg/TactileSensor.msg"
   "msg/MoveL.msg"
+  "msg/TactileSensor.msg"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
