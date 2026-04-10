@@ -1,6 +1,6 @@
 # HandJoints.msg
 
-# Standard header for timestamps and frame_id
+# Standard header for timestamps and frame_id.
 std_msgs/Header header
 
 # Fixed-size array of 21 Point32 structs.
