@@ -17,6 +17,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HandPressures.msg"
   "msg/MoveL.msg"
   "msg/TactileSensor.msg"
+  "msg/CuroboMotionPlanRequest.msg"
+  "srv/CuroboPlanMotion.srv"
+  "srv/SetCuroboTrajectoryDuration.srv"
+  "action/CuroboPlanMotion.action"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 

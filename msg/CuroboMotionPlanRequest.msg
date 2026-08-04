@@ -1,0 +1,5 @@
+std_msgs/Header header
+geometry_msgs/Pose left_pose
+geometry_msgs/Pose right_pose
+float64 duration
+bool execute

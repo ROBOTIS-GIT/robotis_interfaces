@@ -2,7 +2,8 @@
 
 ## **1. Introduction**
 
-Provides **interfaces (msgs)** for ROBOTIS Physical AI Lineup
+Provides ROS 2 messages, services, and actions for the ROBOTIS Physical AI
+Lineup, including duration-aware cuRobo motion-planning requests.
 
 
 ## **2. Contributing**
