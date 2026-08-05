@@ -1,0 +1,14 @@
+# Use the configured scan trajectory. When reset_scene is true, discard any
+# previously captured (but not yet saved) scan before starting.
+bool reset_scene
+bool return_head_to_start
+---
+bool success
+string message
+uint32 integrated_frames
+---
+string status
+uint32 current_waypoint
+uint32 total_waypoints
+uint32 integrated_frames
+float32 progress

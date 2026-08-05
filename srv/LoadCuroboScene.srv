@@ -1,0 +1,7 @@
+# Absolute bundle path or a scene name resolved below the configured directory.
+string scene
+---
+bool success
+string path
+uint32 integrated_frames
+string message

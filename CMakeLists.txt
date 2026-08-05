@@ -20,7 +20,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CuroboMotionPlanRequest.msg"
   "srv/CuroboPlanMotion.srv"
   "srv/SetCuroboTrajectoryDuration.srv"
+  "srv/SaveCuroboScene.srv"
+  "srv/LoadCuroboScene.srv"
   "action/CuroboPlanMotion.action"
+  "action/CuroboScanScene.action"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 

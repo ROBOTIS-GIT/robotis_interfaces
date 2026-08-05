@@ -1,0 +1,8 @@
+# Empty values select the configured default name and directory.
+string scene_name
+string directory
+bool overwrite
+---
+bool success
+string path
+string message
