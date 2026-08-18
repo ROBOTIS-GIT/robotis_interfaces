@@ -17,6 +17,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HandPressures.msg"
   "msg/MoveL.msg"
   "msg/TactileSensor.msg"
+  "msg/TeleoperationCommand.msg"
+  "msg/ControlModeCommand.msg"
+  "msg/ControlModeStatus.msg"
+  "srv/SetControlMode.srv"
+  "srv/SetPreset.srv"
+  "srv/SetTeleoperation.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 

@@ -1,0 +1,7 @@
+uint16 MODE_TELEOPERATION=1
+
+uint16 control_mode
+---
+bool accepted
+uint64 transition_id
+string message

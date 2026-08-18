@@ -1,0 +1,10 @@
+string TARGET_LEFT=left
+string TARGET_RIGHT=right
+string TARGET_BOTH=both
+
+string target_arm
+bool enabled
+---
+bool accepted
+uint64 transition_id
+string message
