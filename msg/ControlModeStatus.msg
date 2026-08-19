@@ -10,6 +10,12 @@ uint8 PRESET_MOVING=2
 uint8 PRESET_HOLDING=3
 uint8 PRESET_ERROR=4
 
+uint8 INITIAL_POSE_UNUSED=0
+uint8 INITIAL_POSE_WAITING=1
+uint8 INITIAL_POSE_MOVING=2
+uint8 INITIAL_POSE_HOLDING=3
+uint8 INITIAL_POSE_ERROR=4
+
 string ARMS_NONE=none
 string ARMS_LEFT=left
 string ARMS_RIGHT=right
@@ -24,5 +30,8 @@ uint16 left_preset_id
 uint16 right_preset_id
 uint8 left_preset_state
 uint8 right_preset_state
+string initial_pose_available_arms
+uint8 left_initial_pose_state
+uint8 right_initial_pose_state
 uint8 state
 string message

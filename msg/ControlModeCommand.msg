@@ -9,5 +9,6 @@ uint64 transition_id
 uint16 control_mode
 string enabled_arms
 string preset_target_arm
+string initial_pose_target_arm
 uint16 left_preset_id
 uint16 right_preset_id
