@@ -1,0 +1,6 @@
+# Empty attachment_frame selects the object's configured default frame.
+string object_name
+string attachment_frame
+---
+bool success
+string message
