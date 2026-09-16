@@ -2,7 +2,7 @@
 Changelog for package robotis_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
+1.2.0 (2026-09-17)
 -----------
 * Add cuMotion object attachment message and service interfaces.
 * Contributors: Yeonguk Kim
