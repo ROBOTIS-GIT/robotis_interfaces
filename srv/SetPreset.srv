@@ -1,0 +1,11 @@
+string TARGET_LEFT=left
+string TARGET_RIGHT=right
+string TARGET_BOTH=both
+
+string target_arm
+uint16 left_preset_id
+uint16 right_preset_id
+---
+bool accepted
+uint64 transition_id
+string message
