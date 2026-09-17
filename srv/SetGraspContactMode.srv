@@ -1,0 +1,7 @@
+# Arm exactly one planning request with a temporary grasp-contact model.
+bool enable
+string planning_group
+string attachment_frame
+---
+bool success
+string message
