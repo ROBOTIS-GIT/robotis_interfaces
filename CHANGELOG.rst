@@ -2,6 +2,11 @@
 Changelog for package robotis_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.2.0 (2026-09-17)
+-----------
+* Add cuMotion object attachment message and service interfaces.
+* Contributors: Yeonguk Kim
+
 1.1.0 (2026-04-07)
 ------------------
 * Added custom message for tactile sensor

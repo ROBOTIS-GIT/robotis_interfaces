@@ -1,0 +1,4 @@
+string attachment_frame
+---
+bool success
+string message
